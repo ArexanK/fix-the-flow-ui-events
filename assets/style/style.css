@@ -8,9 +8,11 @@
   --pill: 2rem;
   --line: 0.1rem;
 }
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 2rem;
   padding: 0;
@@ -18,9 +20,11 @@ body {
   font-size: 2rem;
   background: var(--secondary);
 }
+
 section {
   max-width: 90vw;
 }
+
 a {
   display: inline-block;
   margin: 0.2em;
@@ -32,6 +36,7 @@ a {
   font-weight: normal;
   text-decoration: none;
 }
+
 a:hover {
   color: var(--primary);
   border-color: var(--primary);
@@ -58,24 +63,302 @@ a:nth-of-type(12) {
   0% {
     transform: scale(1, 1) translateY(0);
   }
+
   10% {
     transform: scale(1.1, 0.9) translateY(0);
   }
+
   30% {
     transform: scale(0.9, 1.1) translateY(-5rem) rotate(10deg);
   }
+
   50% {
     transform: scale(1.05, 0.95) translateY(0);
   }
+
   57% {
     transform: scale(1, 1) translateY(-0.5rem) rotate(-2deg);
   }
+
   64% {
     transform: scale(1, 1) translateY(0);
   }
+
   100% {
     transform: scale(1, 1) translateY(0);
   }
 }
 
 /* Jouw animaties */
+
+/* 2 flow */
+
+
+.color {
+  animation: color;
+  animation-duration: 2;
+  background-color: aqua;
+
+}
+
+@keyframes color {
+  0% {
+    background-color: var(--highlight-primary);
+  }
+
+  50% {
+    background-color: aqua;
+  }
+}
+
+/* 3 the */
+
+
+
+.large {
+
+  animation-name: large;
+  animation-duration: 4s;
+}
+
+@keyframes large {
+  from {
+
+    transform: scale(100%);
+    background-color: lightgray;
+  }
+
+  to {
+
+    transform: scale(120%);
+    background-color: gray;
+  }
+}
+
+/* 4 sprint 5*/
+
+
+
+.slideleft {
+  animation-name: side;
+  animation-duration: 2s;
+}
+
+@keyframes side {
+  from {
+
+    transform: translateX(0%);
+  }
+
+  to {
+
+    transform: translateX(-20%);
+    background-color: green;
+  }
+}
+
+
+/* 5 interface*/
+
+
+
+.slideright {
+
+  animation-name: slide;
+  animation-duration: 2s;
+
+
+
+}
+
+@keyframes slide {
+  from {
+
+    transform: translateX(0%);
+  }
+
+  to {
+
+    transform: translateX(20%);
+    background-color: pink;
+  }
+}
+
+
+
+
+
+
+/* 6 and*/
+
+
+.rotate {
+
+  animation-name: rotate;
+  animation-duration: 2s;
+
+}
+
+@keyframes rotate {
+  from {
+
+    transform: rotate(0deg);
+  }
+
+  to {
+
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+/* 7 design*/
+
+
+
+.flip {
+
+  animation-name: flip;
+  animation-duration: 2s;
+
+
+}
+
+
+@keyframes flip {
+  from {
+
+    transform: rotateX(180deg);
+  }
+
+  to {
+
+    transform: rotateX(0deg);
+    background-color: yellow;
+  }
+}
+
+/* 8 fix */
+
+
+.colorchange {
+
+  animation-name: colorchange;
+  animation-duration: 2s;
+
+
+}
+
+@keyframes colorchange {
+  from {
+    /* Start the animation with the button in its original color */
+    background-color: rgb(241, 15, 15);
+  }
+
+  to {
+    /* End the animation with the button in a different color */
+    background-color: rgb(128, 128, 128);
+  }
+}
+
+
+
+
+
+
+
+
+/* 9  front end*/
+
+
+
+.colorslide {
+
+  animation-name: colorslide;
+  animation-duration: 1s;
+  animation: colorslide 3s linear infinite;
+  position: relative;
+
+}
+
+@keyframes colorslide {
+
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: 10px;
+  }
+
+  100% {
+    top: 0;
+    background: orangered;
+  }
+
+
+}
+
+
+/* 10 user*/
+
+
+
+.shape {
+  animation-name: shape;
+  animation-duration: 2s;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  animation: change-shape 1s linear forwards;
+
+}
+
+
+@keyframes shape {
+  0% {
+    border-radius: 50%;
+  }
+
+  100% {
+    border-radius: 0;
+  }
+}
+
+/* 11 development*/
+
+
+
+.shake {
+
+  animation-name: shake;
+  animation-duration: 2s;
+  animation: shake 0.5s linear infinite;
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
