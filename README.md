@@ -1,7 +1,8 @@
 > _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Fix the Flow UI events
+
+<img width="1430" alt="Screenshot 2022-12-16 at 14 54 33" src="https://user-images.githubusercontent.com/94745953/208113506-d2cbf7da-b523-46e0-a807-9dca22c1ef28.png">
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
