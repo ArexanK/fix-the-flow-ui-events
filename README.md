@@ -5,8 +5,8 @@
 <img width="1430" alt="Screenshot 2022-12-16 at 14 54 33" src="https://user-images.githubusercontent.com/94745953/208113506-d2cbf7da-b523-46e0-a807-9dca22c1ef28.png">
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Voor deze opdracht heb ik 10 buttons gemaakt met HTML,CSS & JS. Ieder button heeft een eigen functie. 
+http://fix-the-flow-ui-events.student.fdnd.nl/
 
 ## Experimenten
 <!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
