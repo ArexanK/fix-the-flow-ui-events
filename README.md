@@ -21,7 +21,14 @@ GEBRUIKTE TECHNIEKEN 🛠️:
 - Javascript 
 
 ## 📌Bronnen
-
+Video: … if you only know one thing about JavaScript … @ CSS-Tricks
+Guide: Mouse Events in Javascript @ Kirupa
+Guide: Working with the Keyboard @ Kirupa
+Guide: Introduction to events @ MDN
+Reference: QuerySelector @ MDN
+Reference: ClassList @ MDN
+Reference: UI Events @ MDN
+Reference: DeviceMotionEvent @ MDN
 
 
 
