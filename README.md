@@ -8,9 +8,21 @@
 Voor deze opdracht heb ik 10 buttons gemaakt met HTML,CSS & JS. Ieder button heeft een eigen functie. 
 http://fix-the-flow-ui-events.student.fdnd.nl/
 
-## Experimenten
-<!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
-<!-- Voeg een mooie poster visual toe 📸 per experiment -->
+## 🖇Kenmerken
+Lijst met gebruikte tools, technieken en communicatie middelen.
+
+TOOLS 🧰:
+- VSCode
+- Pen & Papier
+- Laptop
+GEBRUIKTE TECHNIEKEN 🛠️:
+- HTML
+- CSS
+- Javascript 
+
+## 📌Bronnen
+
+
 
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
